@@ -5,17 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.examlly.com.ico",
     "slug": "web-app",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "48.43%",
+    "uptimeDay": "48.43%",
+    "uptimeWeek": "48.43%",
+    "uptimeMonth": "48.43%",
+    "uptimeYear": "48.43%",
     "time": 375,
     "timeDay": 375,
     "timeWeek": 375,
     "timeMonth": 375,
     "timeYear": 375,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-19": 0
+    }
   },
   {
     "name": "API",
