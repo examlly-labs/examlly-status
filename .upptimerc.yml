@@ -1,3 +1,7 @@
+# Examlly services status page — configuration consumed by Upptime.
+# Each component row matches a substring of the https://api.examlly.com/status
+# JSON body (e.g. "database":"operational"); these strings track that endpoint's
+# component keys, which are a public contract from examlly-labs/examlly (M29.3).
 owner: examlly-labs
 repo: examlly-status
 
