@@ -7,7 +7,8 @@ repo: examlly-status
 
 sites:
   - name: Web app
-    url: https://app.examlly.com
+    url: https://app.examlly.com/login
+    expectedStatusCodes: [200]
   - name: API
     url: https://api.examlly.com/status
     expectedStatusCodes: [200]
