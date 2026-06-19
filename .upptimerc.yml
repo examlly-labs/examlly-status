@@ -37,8 +37,59 @@ sites:
 status-website:
   cname: status.examlly.com
   name: Examlly Status
+  theme: light
   introTitle: Examlly Status
   introMessage: Real-time and historical availability of Examlly services.
   navbar:
     - title: Status
       href: /
+  customHeadHtml: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
+  css: |
+    /* Examlly Workshop register: paper/ink palette, Inter, square corners. */
+    html:root {
+      --body-background-color: #f4f1ec;
+      --body-background-color: oklch(0.96 0.005 80);
+      --body-text-color: #1c1a18;
+      --body-text-color: oklch(0.18 0.005 60);
+      --card-background-color: #ffffff;
+      --card-border-color: #d5cfc6;
+      --card-border-color: oklch(0.83 0.006 75);
+      --nav-background-color: #ffffff;
+      --nav-border-bottom-color: #d5cfc6;
+      --nav-border-bottom-color: oklch(0.83 0.006 75);
+      --nav-current-border-bottom-color: #1c1a18;
+      --nav-current-border-bottom-color: oklch(0.18 0.005 60);
+      --up-border-left-color: #3f8c5a;
+      --up-border-left-color: oklch(0.52 0.12 145);
+      --degraded-border-left-color: #bd8a33;
+      --degraded-border-left-color: oklch(0.62 0.13 75);
+      --down-border-left-color: #c04a39;
+      --down-border-left-color: oklch(0.55 0.17 28);
+      --down-background-color: #f7e3e0;
+      --down-background-color: oklch(0.95 0.025 28);
+      --tag-color: #ffffff;
+      --tag-up-background-color: #3f8c5a;
+      --tag-up-background-color: oklch(0.52 0.12 145);
+      --tag-down-background-color: #c04a39;
+      --tag-down-background-color: oklch(0.55 0.17 28);
+      --tag-degraded-background-color: #bd8a33;
+      --tag-degraded-background-color: oklch(0.62 0.13 75);
+      --change-background-color: #bd8a33;
+      --change-background-color: oklch(0.62 0.13 75);
+      --submit-button-border-color: #1c1a18;
+      --submit-button-border-color: oklch(0.18 0.005 60);
+      --submit-button-background-color: #1c1a18;
+      --submit-button-background-color: oklch(0.18 0.005 60);
+      --submit-button-color: #ffffff;
+      --error-button-border-color: #1c1a18;
+      --error-button-border-color: oklch(0.18 0.005 60);
+      --error-button-background-color: #1c1a18;
+      --error-button-background-color: oklch(0.18 0.005 60);
+      --error-button-color: #ffffff;
+    }
+    body, button, input, select, textarea {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    .container, .tag, .data, .error-button, .submit-button, input, button {
+      border-radius: 2px;
+    }
